@@ -32,13 +32,11 @@
 	
 	
 	
-	
-	
-	<plugin name="cordova-plugin-device" value="org.apache.cordova.device"/>
+
     <plugin name="cordova-plugin-device-motion" source="npm"/>
     <plugin name="cordova-plugin-device-orientation" source="npm"/>
     <plugin name="cordova-plugin-dialogs" source="npm"/>
-<plugin name="cordova-plugin-file" spec="~6.0.0" />    
+<plugin name="cordova-plugin-file" spec="~6.0.0" source="npm" />    
  <plugin name="cordova-plugin-globalization" source="npm"/>
     <plugin name="cordova-plugin-inappbrowser" source="npm"/>
     <plugin name="cordova-plugin-media" source="npm"/>
