@@ -30,8 +30,13 @@
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="android-installLocation" value="auto" />
 	
-	
-	
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>	
+<plugin name="cordova-plugin-geolocation"  spec="0.3.12" source="npm"/>
+<plugin name="cordova-plugin-network-information"  spec="0.2.15" source="npm" />
+ <plugin name="cordova-plugin-vibration" source="npm" version="2.1.1" />
+ <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+
+ 
 
  
 <icon platform="ios" height="60" width="60" src="res/icons/ios/icon-60.png" />
@@ -59,13 +64,9 @@
  
  
  
- 	<plugin name="cordova-plugin-geolocation"  spec="0.3.12" source="npm"/>
-<plugin name="cordova-plugin-network-information"  spec="0.2.15" source="npm" />
- <plugin name="cordova-plugin-vibration" source="npm" version="2.1.1" />
- <plugin name="cordova-plugin-inappbrowser" source="npm"/>
   
  
-  <access origin="*" browserOnly="true" />
+  <access origin="*" browserOnly="false" />
   <allow-navigation href="*" />
   <allow-intent href="*" />
  
