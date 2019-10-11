@@ -32,20 +32,6 @@
 	
 	
 	
-
-    <plugin name="cordova-plugin-device-motion" source="npm"/>
-    <plugin name="cordova-plugin-device-orientation" source="npm"/>
-    <plugin name="cordova-plugin-dialogs" source="npm"/>
-<plugin name="cordova-plugin-file" spec="~6.0.0" source="npm" />    
- <plugin name="cordova-plugin-globalization" source="npm"/>
-    <plugin name="cordova-plugin-inappbrowser" source="npm"/>
-    <plugin name="cordova-plugin-media" source="npm"/>
-    <plugin name="cordova-plugin-network-information" source="npm"/>
-	 <plugin name="cordova-plugin-background-mode" source="npm"/>
- 
- 
-	
-	
 	
 	
  
@@ -74,7 +60,17 @@
  
  
   
-  
+    <plugin name="cordova-plugin-device-orientation" source="npm" spec="1.0.0" />
+    <plugin name="cordova-plugin-dialogs" source="npm" spec="1.0.0" />
+  <plugin name="cordova-plugin-geolocation" source="npm" spec="1.0.0" />
+    <plugin name="cordova-plugin-globalization" source="npm" spec="1.0.0" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.0.0" />
+ 
+    <plugin name="cordova-plugin-network-information" source="npm" spec="1.0.0" />
+ 
+    <plugin name="cordova-plugin-statusbar" source="npm" spec="1.0.0" />
+    <plugin name="cordova-plugin-vibration" source="npm" spec="1.0.0" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="1.0.0" />
  
   
   <content src="index.html" />
