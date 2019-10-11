@@ -32,7 +32,9 @@
 	
 	
 	
-	
+	<plugin name="cordova-plugin-geolocation"  spec="0.3.12" source="npm"/>
+<plugin name="cordova-plugin-network-information"  spec="0.2.15" source="npm" />
+ <gap:plugin name="cordova-plugin-vibration" source="npm" version="2.1.1" />
 	
  
 <icon platform="ios" height="60" width="60" src="res/icons/ios/icon-60.png" />
