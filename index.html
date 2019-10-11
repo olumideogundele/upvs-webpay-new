@@ -1,45 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
-<script>
-function myFunction() {
-alert("redirect");
-  location.replace("https://payall.com.ng/upvs-webpay/")
-}
-</script>
-
+<html class="no-js">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <title>TINUTEN UPVS | ULTIMATE POWER VENDING SYSTEM......</title>
-   
+	<meta charset="UTF-8">
+	
+	<title>UPVS</title>
+	
+<style>
+ 
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(Preloader_3.gif) center no-repeat #fff;
+}
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+	//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
+
 </head>
 
-<body  onLoad="myFunction()">
-    <!-- PRELOADER -->
-   
-   
+<body>
+	<!-- Paste this code after body tag -->
+	<div class="se-pre-con"></div>
+	<!-- Ends -->
+	
+	<div class="content">
+    <iframe src="https://payall.com.ng//" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
 
-    <section class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="copy_right_text">
-                    <!-- COPYRIGHT TEXT --> <p>Copyright &copy; 2019 TINUTEN NIG. LTD. All Rights Reserved.</p>    </div>
-                     
-                </div>
-
-                
-            </div>
-        </div>
-    </section>
-
-
-
+	</div>
+	 
 </body>
-
+ 
 </html>
