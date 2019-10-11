@@ -29,6 +29,27 @@
     <preference name="android-minSdkVersion" value="10" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="android-installLocation" value="auto" />
+	
+	
+	
+	
+	
+	<plugin name="cordova-plugin-device" value="org.apache.cordova.device"/>
+    <plugin name="cordova-plugin-device-motion" source="npm"/>
+    <plugin name="cordova-plugin-device-orientation" source="npm"/>
+    <plugin name="cordova-plugin-dialogs" source="npm"/>
+<plugin name="cordova-plugin-file" spec="~6.0.0" />    
+ <plugin name="cordova-plugin-globalization" source="npm"/>
+    <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+    <plugin name="cordova-plugin-media" source="npm"/>
+    <plugin name="cordova-plugin-network-information" source="npm"/>
+	 <plugin name="cordova-plugin-background-mode" source="npm"/>
+ 
+ 
+	
+	
+	
+	
  
 <icon platform="ios" height="60" width="60" src="res/icons/ios/icon-60.png" />
 <icon platform="ios" height="120" width="120" src="res/icons/ios/icon-60-2x.png" />
