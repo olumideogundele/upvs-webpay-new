@@ -75,9 +75,7 @@
   <gap:plugin name="cordova-plugin-dialogs" source="npm" />
   <gap:plugin name="org.apache.cordova.splashscreen" source="npm" />
   <gap:plugin name="cordova-plugin-vibration" spec="1.2.0" source="npm" />
-  
-  <gap:plugin name="com.sharinglabs.cordova.plugin.cache" spec="1.0.0" source="pgb" />
-  <gap:plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
+ 
   <access origin="*" browserOnly="true" />
   <allow-navigation href="*" />
   <allow-intent href="*" />
